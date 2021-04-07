@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class MyList<T> {
+public class MyList<T extends Number> {
     private final List<T> arraylist;
 
     public MyList() {
